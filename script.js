@@ -10,7 +10,6 @@ function myCofettiAnimation() {
     var count = 400;
     var defaults = {
         origin: { y: 0.7 },
-        spread: 360,
         colors: ['#ff6600', '#ff0000', '#ffee00','#1eff00','#00ffc8','#0084ff','#00eeff','#8400ff','#ff00dd','#ff00c8','#0400ff']
     };
 
