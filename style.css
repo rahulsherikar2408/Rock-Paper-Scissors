@@ -65,6 +65,7 @@ img{
     border-radius: 10px;
 }
 
+/* Media query for max-width: 500px */
 @media screen and (max-width: 700px) {
     .choices {
         flex-direction: row;
