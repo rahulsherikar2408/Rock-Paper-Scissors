@@ -135,32 +135,33 @@ img{
     h1 {
         height: 3rem;
         line-height: 3rem;
-        font-size: 0.95rem;
+        font-size: 0.80rem;
     }
 
     .choice {
-        height: 70px;
-        width: 70px;
-        max-width: 70px;
+        height: 60px;
+        width: 60px;
+        min-width: none;
     }
 
     img {
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
+        min-width: none;
     }
 
     .score-board {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     #user-score, #computer-score {
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 
     #you, #comp {
         font-size: 1.25rem;
     }
     #msg {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
