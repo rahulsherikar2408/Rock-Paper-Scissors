@@ -95,10 +95,72 @@ img{
     }
 
     .score-board {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     #msg {
         font-size: 1.5rem;
+    }
+}
+
+/* Media query for max-width: 430px */
+@media screen and (max-width: 430px) {
+    h1 {
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.25rem;
+    }
+
+    .choice {
+        height: 95px;
+        width: 95px;
+    }
+
+    img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .score-board {
+        font-size: 1.75rem;
+    }
+
+    #msg {
+        font-size: 1.1rem;
+    }
+}
+
+/* Media query for max-width: 330px */
+@media screen and (max-width: 330px) {
+    h1 {
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 0.95rem;
+    }
+
+    .choice {
+        height: 70px;
+        width: 70px;
+        max-width: 70px;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .score-board {
+        font-size: 1rem;
+    }
+
+    #user-score, #computer-score {
+        font-size: 3rem;
+    }
+
+    #you, #comp {
+        font-size: 1.25rem;
+    }
+    #msg {
+        font-size: 0.8rem;
     }
 }
