@@ -64,3 +64,40 @@ img{
     padding: 1rem;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 700px) {
+    .choices {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .score-board {
+        flex-direction: row;
+        gap: 4rem;
+    }
+}
+
+/* Media query for max-width: 500px */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.65rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .score-board {
+        font-size: 1.5rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+    }
+}
