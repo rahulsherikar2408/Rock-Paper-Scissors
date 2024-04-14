@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors
 
 ## Project Link
-<a href="https://rahulsherikar2408.github.io/Rock-Paper-Scissors/">https://rahulsherikar2408.github.io/Rock-Paper-Scissors/</a>
+https://rahulsherikar2408.github.io/Rock-Paper-Scissors/
 
 ## Library
 
